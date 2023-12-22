@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -364,7 +365,7 @@ ul.btn li:last-child {
 .header {
      width: 100%;
      padding: 30px 30px;
-     background: #013044;
+     background: #032635;
      position: absolute;
      z-index: 999;
 }
@@ -864,6 +865,7 @@ ul.btn li:last-child {
      background-size: 100% 100%;
      padding-top: 115px;
      text-align: center;
+
 }
 
 .footer .titlepage {
@@ -1086,3 +1088,94 @@ ul.social_icon li a:hover {
 
 /** end laptop **/
 
+/** Team Members **/
+.hc-team {
+     margin-bottom: 50px;
+}
+.top {
+     font-size: 3em;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ .wrap {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     grid-gap: 30px;
+     max-width: 1000px;
+     margin: auto;
+     margin-top: 50px;
+      
+  
+ }
+ .box {
+     background: black;
+     border-radius: 10px;
+     margin-bottom: 10px;
+ }
+ .team {
+     width:100%;
+     height: 300px;
+ }
+   .fa {
+     line-height: 30px;
+     width:30px;
+     height: 30px;
+     position: relative;
+     text-align: center;
+      
+ }
+ .text {
+     text-align: center;
+     color:#fff;
+ }
+ p {
+     font-size:20px;
+ }
+
+ .title {
+     color: whitesmoke;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     font-size: 22px;
+ }
+
+ .title-2 {
+     color: whitesmoke;
+     margin-top: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-bottom: 20px;
+ }
+
+ /** Happiness Computers Staff **/
+
+ .title-3{
+     text-align: center;
+     font-size: 3em;
+     color: #7d7d7e;
+     font-weight: bold;
+     margin-top: 30px;
+ }
+
+ .staff-p {
+     margin-left: 50px;
+     margin-right: 50px;
+     text-align: justify;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .staff-btn {
+     background-color: #141a18;
+     color: white;
+     padding: 14px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin-bottom: 50px;
+     margin-left: 300px;
+   }
+
+   .staff-btn:hover, .staff-btn:active {
+     background-color: orange;
+     color: #000;
+   }
