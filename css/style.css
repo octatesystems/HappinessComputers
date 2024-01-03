@@ -917,7 +917,7 @@ ul.social_icon li a:hover {
      font-size: 25px;
      line-height: 25px;
      text-align: left;
-     color: #fff;
+     color: orange;
      padding-bottom: 15px;
 }
 
@@ -942,7 +942,7 @@ ul.social_icon li a:hover {
      font-size: 25px;
      line-height: 25px;
      text-align: left;
-     color: #fff;
+     color: olivedrab;
      padding-bottom: 15px;
 }
 
@@ -956,7 +956,7 @@ ul.social_icon li a:hover {
      font-size: 17px;
      font-weight: 600;
      float: left;
-     border-radius: 10px;
+     border-radius: 5px;
      margin-bottom: 20px;
 }
 
@@ -967,7 +967,7 @@ ul.social_icon li a:hover {
      color: #fff;
      padding: 10px 0px;
      max-width: 147px;
-     border-radius: 10px;
+     border-radius: 5px;
      width: 100%;
      display: block;
      font-weight: 500;
@@ -1501,4 +1501,22 @@ ul.social_icon li a:hover {
    .h6 {
      font-weight: 500 !important;
      color: #444;
+   }
+
+.see-more {
+     background-color: white;
+     color: black;
+     border: 2px solid rgb(19, 221, 211);
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     width: 200px;
+     margin-left: 600px;
+     margin-bottom: 50px;
+}
+
+   .see-more:hover {
+     background-color: rgb(2, 104, 53);
+     color: white;
    }
